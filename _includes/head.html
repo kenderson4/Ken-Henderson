@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="keywords" content="{{site.keywords}}">
+	<meta name="description" content="{{site.description}}">
+	<meta name="format-detection" content="telephone=yes">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{site.url}}">
+	<meta property="og:title" content="{{site.title}}">
+	<meta property="og:description" content="{{site.description}}">
+	<meta name="author" content="Ken Henderson">
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="MobileOptimized" content="320"/>
+	<meta http-equiv="cleartype" content="on"/>
+	<meta property="og:image" content='{{ "/images/logo.png" | prepend: site.baseurl }}'>
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="215" />
+	<meta property="og:image:height" content="72" />
+  <link rel="apple-touch-icon" sizes="57x57" href='{{ "/images/apple-touch-icon-57x57.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="60x60" href='{{ "/images/apple-touch-icon-60x60.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="72x72" href='{{ "/images/apple-touch-icon-72x72.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="76x76" href='{{ "/images/apple-touch-icon-76x76.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="114x114" href='{{ "/images/apple-touch-icon-114x114.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="120x120" href='{{ "/images/apple-touch-icon-120x120.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="144x144" href='{{ "/images/apple-touch-icon-144x144.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="152x152" href='{{ "/images/apple-touch-icon-152x152.png" | prepend: site.baseurl }}'>
+  <link rel="apple-touch-icon" sizes="180x180" href='{{ "/images/apple-touch-icon-180x180.png" | prepend: site.baseurl }}'>
+  <link rel="icon" type="image/png" href='{{ "/images/favicon-32x32.png" | prepend: site.baseurl }}' sizes="32x32">
+  <link rel="icon" type="image/png" href='{{ "/images/favicon-194x194.png" | prepend: site.baseurl }}' sizes="194x194">
+  <link rel="icon" type="image/png" href='{{ "/images/favicon-96x96.png" | prepend: site.baseurl }}' sizes="96x96">
+  <link rel="icon" type="image/png" href='{{ "/images/android-chrome-192x192.png" | prepend: site.baseurl }}' sizes="192x192">
+  <link rel="icon" type="image/png" href='{{ "/images/favicon-16x16.png" | prepend: site.baseurl }}' sizes="16x16">
+  <link rel="manifest" href='{{ "/images/images/manifest.json" | prepend: site.baseurl }}'>
+  <meta name="msapplication-TileColor" content="#ffb600">
+  <meta name="msapplication-TileImage" content='{{ "/images/mstile-144x144.png" | prepend: site.baseurl }}'>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="google-site-verification" content="B3vmrHyvHukc9q0M7IRBuKfvg8mBOyBzmJy8BB5loog" />
+  
+  <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'/>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script> 
+  <script src='{{ "/js/kh.js" | prepend: site.baseurl }}' type="text/javascript"></script>
+  
+</head>
