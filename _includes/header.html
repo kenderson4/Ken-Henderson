@@ -1,19 +1,7 @@
 {% assign pages = site.pages  %}
 <div id="header">
-  <div class="logo shadowed_text">Ken Henderson</div>
-  <div class="tagline shadowed_text">Operations and Front-End Web Design Enthusiast</div>
+  <div class="logo shadowed_text">Update in process</div>
+  <div class="tagline shadowed_text">Good stuff coming soon....</div>
   <div id="navigation">
-  	<ul>
-      {% for node in pages %}
-        {% if page.url == node.url %}
-          {% assign active_class = 'is-active' %}
-        {% else %}
-          {% assign active_class = '' %}
-        {% endif %}
-        <li>
-          <a class="{{ active_class }}" href="{{ node.url | prepend: site.baseurl }}" >{{ node.title }}</a>
-        </li>
-      {% endfor %}
-		</ul>
   </div>
 </div>
