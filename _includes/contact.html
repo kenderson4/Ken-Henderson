@@ -1,0 +1,59 @@
+<!--section contact start-->
+<div class="section-contact">
+    <div class="map-header" id="contact">
+        <div class="container">
+			<span class="map-link">
+			<i class=" fa fa-map-marker"></i><span>Catch me in the google map</span>
+			</span>
+        </div>
+    </div>
+    <div class="contact-map">
+        <div id="map-canvas" class="location-map">
+        </div>
+        <div class="contact-form panel-hide wow bounceInUp">
+            <div class="form-container">
+                <h3>Drop me a line</h3>
+                <form class="contact-comments" action="https://formspree.io/henderson.ken@gmail.com" method="post">
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <!-- Name -->
+                            <input type="text" name="name" id="name" class=" form-control" placeholder="Name *" maxlength="100" required="">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <!-- Email -->
+                            <input type="email" name="email" id="email" class=" form-control" placeholder="Email *" maxlength="100" required="">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <!-- Subject -->
+                            <input type="text" name="subject" id="subject" class=" form-control" placeholder="Subject " maxlength="100">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <!-- Comment -->
+                            <textarea name="comments" id="comments" class=" form-control" placeholder="Comments" maxlength="400"></textarea>
+                        </div>
+                        <div class="col-md-12 form-group text-center">
+                            <button type="submit" class="btn btn-read" value="Send">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="toggle-contact-form wow bounceInUp">
+            <a href="#" class="form-toggle-icon">
+                <i class="fa fa-envelope-o"></i>
+            </a>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; {{ site.time | date: '%Y' }} All Rights Reserved. Ken Henderson
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--section contact end-->

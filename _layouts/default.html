@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
-    <div id="header_wrap">
-      {% include header.html %}
-    </div>
-    <div id="container" class="clearfix">
-      <div id="content_wrap" class="clearfix">
-        {{ content }}
-      </div>
-    </div>
-    {% include footer.html %}    
+  <body class="royal_loader">
+    {{ content }}
+    {% include scripts.html %}
   </body>
 </html>

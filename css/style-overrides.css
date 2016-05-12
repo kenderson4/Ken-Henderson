@@ -1,0 +1,31 @@
+.about-img img {
+    margin:0px 0 0 -30px;
+}
+.custombtn {
+  display:block;
+}
+.custombtn .text {
+  text-transform:uppercase;
+}
+.custombtn:hover {
+  color:#fff;
+}
+.section-counter {
+  margin:0;
+}
+.section-subheading-nobg span.quote {
+  display:block;
+  color:#999;
+  font-style:italic;
+  font-size:12px;
+  padding-top:10px;
+}
+.skill p {
+  padding:25px 0px 5px 0px;
+}
+.skill ul li {
+  list-style-type:disc;
+}
+.testimonial-thumb {
+  margin-bottom: 50px;
+}

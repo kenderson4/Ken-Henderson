@@ -1,8 +1,15 @@
 ---
 layout: default
-title: Home
+title: Ken Henderson
 ---
-<div id="content" role="main">
-  <img src='{{ "/images/kh_logo.jpg" | prepend: site.baseurl }}' width="230px"/>  
-</div><!-- #content -->
-
+{% include banner.html %}
+{% include navigation.html %}
+{% include about-me.html %}
+{% include experience.html %}
+<div class="clear">
+</div>
+{% include education.html %}
+{% include counters.html %}
+{% include testimonials.html %}
+{% include connect.html %}
+{% include contact.html %}

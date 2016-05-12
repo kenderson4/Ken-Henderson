@@ -41,28 +41,32 @@
   <meta name="msapplication-TileImage" content='/images/mstile-144x144.png'>
   <meta name="theme-color" content="#ffffff">
   <meta name="google-site-verification" content="B3vmrHyvHukc9q0M7IRBuKfvg8mBOyBzmJy8BB5loog" />
-  
-  <link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'/>
-  <link rel="canonical" href="http://www.kenhendersonm.cme/resume.html">
-  <link rel="stylesheet" href="/css/style.css">
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script> 
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script> 
-  <script src='/js/kh.js' type="text/javascript"></script>
-  
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+  <link href="css/royal_preloader.css" type="text/css" rel="stylesheet">
+  <link href="css/animate.css" type="text/css" rel="stylesheet">
+  <link href="css/prettify.css" type="text/css" rel="stylesheet">
+  <link href="css/rev-slider-settings.css" type="text/css" rel="stylesheet">
+  <!-- MEGAFOLIO GALLERY  CSS -->
+  <link href="css/megafolio-style.css" type="text/css" rel="stylesheet">
+  <link href="css/megafolio-settings.css" type="text/css" rel="stylesheet">
+  <!-- Magnific Popup core CSS file -->
+  <link href="css/magnific-popup.css" type="text/css" rel="stylesheet">
+  <!-- Owl Carousel Assets -->
+  <link href="css/owl.carousel.css" type="text/css" rel="stylesheet">
+  <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+  <link href="css/owl.transitions.css" type="text/css" rel="stylesheet">
+  <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
+  <link href="css/superfish.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/style-responsive.css" type="text/css" rel="stylesheet">
+  <link href="css/apps-reset.css" type="text/css" rel="stylesheet">
+  <link href="css/themes/orange-theme.css" type="text/css" rel="stylesheet">
+  <link href="css/style-overrides.css" type="text/css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:900,300,200,100' rel='stylesheet' type='text/css'> 
 </head>
-  <body>
-    <div id="header_wrap">
-      
-<div id="header">
-  <div class="logo shadowed_text">Update in process</div>
-  <div class="tagline shadowed_text">Good stuff coming soon....</div>
-  <div id="navigation">
-  </div>
-</div>
-    </div>
-    <div id="container" class="clearfix">
-      <div id="content_wrap" class="clearfix">
-        <div id="content_wide" >
+  <body class="royal_loader">
+    <div id="content_wide" >
   <div class="clearfix" style="padding-bottom:20px;">
     <div id="wide_resume_address">2312 Millcrest Ter <br/> Midlothian, VA 23112 <br/> (443) 629-4257  <br/> <a href="mailto:henderson.ken@gmail.com">henderson.ken@gmail.com</a></div>
     <h3 class="styled_text">Kenneth R. Henderson</h3>
@@ -443,27 +447,74 @@
 </div>
 
 
-      </div>
-    </div>
-    <div id="footer_wrap">  
-	<div id="footer" class="clearfix">
-    <div class='contact_wrap'>
-      <div id="footer_soc_nav">
-        <a href='http://twitter.com/kenderson' class="footer_soc_icon fb_icon"></a>
-        <a href='http://twitter.com/kenderson' class="footer_soc_icon tw_icon"></a>
-        <a href='mailto:henderson.ken@gmail.com' class="footer_soc_icon gm_icon"></a>
-        <a href='http://www.linkedin.com/in/kenhendersonpm' class="footer_soc_icon li_icon"></a>
-        <a href='skype:kenderson4?call' style='border:none;' class="footer_soc_icon sk_icon"></a>
-        <a href='http://blinklist.com/users/kenderson' class="footer_soc_icon bl_icon"></a>
-      </div>
-    </div>	    
-	</div><!-- #footer -->
-</div><!-- #footer_wrap -->
-<div id="credits">
-  designed by Ken Henderson
-  <br />
-  &copy; 2016
-</div>
-          
+    <!-- jQuery v1.10.2  -->
+<script src="js/jquery.js"></script>
+<script src="js/royal_preloader.js"></script>
+<script type="text/javascript">
+    var images = {
+        'Banner One':     'http://rxhtml.themebucket.net/img/banner1.jpg',
+        'Banner Two':     'http://rxhtml.themebucket.net/img/banner2.jpg',
+        'Banner Three':     'http://rxhtml.themebucket.net/img/banner3.jpg',
+        'Theme Bucket':  'http://rxhtml.themebucket.net/img/p1.jpg',
+        'About Me':     'http://rxhtml.themebucket.net/img/about-bg.jpg',
+        'Experience':   'http://rxhtml.themebucket.net/img/experience-bg.jpg',
+        'Connect Monitor': 'http://rxhtml.themebucket.net/img/connect-monitor.png'
+    };
+    // config
+    Royal_Preloader.config({
+        mode:       'number',
+        images:     images,
+        timeout:    20,
+        showInfo:   true,
+        background: ['#FA6862']
+    });
+</script>
+<!-- Bootstrap v3.1.0-->
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<!-- jQuery REVOLUTION Slider -->
+<script src="js/jquery.revslider.plugins.min.js"></script>
+<script src="js/jquery.themepunch.revolution.js"></script>
+<!-- Scroll Top-->
+<script src="js/jquery.scrollUp.js"></script>
+<!-- Easing Effect-->
+<script src="js/jquery.easing.js"></script>
+<!-- Knob-->
+<script src="js/jquery.easypiechart.js"></script>
+<!-- One Page Nav-->
+<script src="js/jquery.nav.js"></script>
+<!-- Scroll To-->
+<script src="js/jquery.scrollTo.js"></script>
+<!-- Sticky Nav-->
+<script src="js/waypoints.js"></script>
+<script src="js/waypoints-sticky.js"></script>
+<!-- Elements Animation On Scroll -->
+<script src="js/wow.js"></script>
+<!-- jQuery Fittext -->
+<script src="js/jquery.fittext.js"></script>
+<!-- Appear Animation -->
+<script src="js/jquery.appear.js"></script>
+<!-- Masonry Grid -->
+<script src="js/jquery.isotope.js"></script>
+<!-- Smooth Scroll Effect -->
+<script src="js/jquery.smooth-scroll.js"></script>
+<!-- Google Map Api -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false"></script>
+<!-- MEGAFOLIO GALLERY  JS FILES  -->
+<script src="js/jquery.megafolio.plugins.min.js"></script>
+<script src="js/jquery.themepunch.megafoliopro.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>
+<!-- jQuery OwlCarousel -->
+<script src="js/owl.carousel.js"></script>
+<!-- Drop Down Menu -->
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.js"></script>
+<!-- Syntax Highlighter -->
+<script src="js/prettify.js"></script>
+<!-- Flickr Feed -->
+<script src="js/jflickrfeed.js"></script>
+<!-- Plugins Initialize Scripts -->
+<script src="js/scripts.js"></script>
   </body>
 </html>
